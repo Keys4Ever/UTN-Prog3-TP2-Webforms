@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\TP2_Grupo_8\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|c:\\users\\quinn\\downloads\\programacion legit\\a repos con permisos\\progra 3\\tp-grupal-2\\utn-prog3-tp2-webforms\\tp2_grupo_8\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|solutionrelative:tp2_grupo_8\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|c:\\users\\quinn\\downloads\\programacion legit\\a repos con permisos\\progra 3\\tp-grupal-2\\utn-prog3-tp2-webforms\\tp2_grupo_8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|solutionrelative:tp2_grupo_8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|c:\\users\\quinn\\downloads\\programacion legit\\a repos con permisos\\progra 3\\tp-grupal-2\\utn-prog3-tp2-webforms\\tp2_grupo_8\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|solutionrelative:tp2_grupo_8\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|c:\\users\\quinn\\downloads\\programacion legit\\a repos con permisos\\progra 3\\tp-grupal-2\\utn-prog3-tp2-webforms\\tp2_grupo_8\\paginaprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4672D568-B897-4E79-A2CC-9B0CC7A7C146}|TP2_Grupo_8\\TP2_Grupo_8.csproj|solutionrelative:tp2_grupo_8\\paginaprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\ejercicio1.aspx.cs",
+              "RelativeDocumentMoniker": "TP2_Grupo_8\\ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\ejercicio1.aspx.cs",
+              "RelativeToolTip": "TP2_Grupo_8\\ejercicio1.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:34:39.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ejercicio1.aspx",
+              "DocumentMoniker": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\ejercicio1.aspx",
+              "RelativeDocumentMoniker": "TP2_Grupo_8\\ejercicio1.aspx",
+              "ToolTip": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\ejercicio1.aspx",
+              "RelativeToolTip": "TP2_Grupo_8\\ejercicio1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-05T23:34:34.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "paginaPrincipal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\paginaPrincipal.aspx.cs",
+              "RelativeDocumentMoniker": "TP2_Grupo_8\\paginaPrincipal.aspx.cs",
+              "ToolTip": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\paginaPrincipal.aspx.cs",
+              "RelativeToolTip": "TP2_Grupo_8\\paginaPrincipal.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T23:34:28.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "paginaPrincipal.aspx",
+              "DocumentMoniker": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\paginaPrincipal.aspx",
+              "RelativeDocumentMoniker": "TP2_Grupo_8\\paginaPrincipal.aspx",
+              "ToolTip": "C:\\Users\\Quinn\\Downloads\\Programacion legit\\A repos con permisos\\Progra 3\\TP-grupal-2\\UTN-Prog3-TP2-Webforms\\TP2_Grupo_8\\paginaPrincipal.aspx",
+              "RelativeToolTip": "TP2_Grupo_8\\paginaPrincipal.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-05T23:34:18.561Z",
+              "EditorCaption": ""
             }
           ]
         }
