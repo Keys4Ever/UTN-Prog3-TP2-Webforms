@@ -65,5 +65,28 @@ namespace TP2_Grupo_8
             }
             txtBxCantidad2.Text = cantidad;
         }
+
+        protected void btnGenerarTabla_Click(object sender, EventArgs e)
+        {
+            int cantidad1, cantidad2;
+            string producto1, producto2;
+
+            if (txtBxCantidad1.Text != "" && txtBxProducto1.Text != "") 
+            {
+                cantidad1 = int.Parse(txtBxCantidad1.Text);
+                producto1 = txtBxProducto1.Text;
+            }
+            if (txtBxCantidad2.Text != "" && txtBxProducto2.Text != "")
+            {
+                cantidad2 = int.Parse(txtBxCantidad2.Text);
+                producto2 = txtBxProducto2.Text;
+            }
+            string tabla = "<table border = '1'";
+            tabla += "<tr>";
+            tabla += "<td> Producto </td><td> Cantidad </td>";
+            tabla += "</tr>";
+            tabla += "</Table>";
+            lblTabla.Text = tabla;
+        }
     }
 }

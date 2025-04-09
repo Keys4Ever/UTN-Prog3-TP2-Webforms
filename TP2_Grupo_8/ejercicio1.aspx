@@ -141,8 +141,12 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:Button ID="btnGenerarTabla" runat="server" OnClick="btnGenerarTabla_Click" Text="Generar Tabla" />
+                    </td>
+                    <td class="auto-style5">
+                        <asp:Label ID="lblTabla" runat="server"></asp:Label>
+                    </td>
                     <td class="auto-style6">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
