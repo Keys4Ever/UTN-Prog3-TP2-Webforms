@@ -42,13 +42,13 @@ namespace TP2_Grupo_8
         protected global::System.Web.UI.WebControls.TextBox txtBxProducto1;
 
         /// <summary>
-        /// Control lblCantidad2.
+        /// Control lblCantidad1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCantidad2;
+        protected global::System.Web.UI.WebControls.Label lblCantidad1;
 
         /// <summary>
         /// Control txtBxCantidad1.
@@ -58,5 +58,41 @@ namespace TP2_Grupo_8
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBxCantidad1;
+
+        /// <summary>
+        /// Control lblProducto2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProducto2;
+
+        /// <summary>
+        /// Control txtBxProducto2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBxProducto2;
+
+        /// <summary>
+        /// Control lblCantidad2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCantidad2;
+
+        /// <summary>
+        /// Control txtBxCantidad2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBxCantidad2;
     }
 }
