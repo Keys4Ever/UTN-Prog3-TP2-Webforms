@@ -98,6 +98,7 @@ namespace TP2_Grupo_8
             tabla += "<td> Producto </td><td> Cantidad </td>";
             tabla += $"<tr><td>{ producto1 }</td> <td>{ cantidad1 }</td></tr>";
             tabla += $"<tr><td>{ producto2 }</td> <td>{ cantidad2 }</td></tr>";
+            tabla += $"<tr><td>{"TOTAL"}</td> <td>{cantidad1 + cantidad2}</td></tr>";
             tabla += "</tr>";
             tabla += "</Table>";
             lblTabla.Text = tabla;
