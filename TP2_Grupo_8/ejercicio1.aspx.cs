@@ -68,8 +68,8 @@ namespace TP2_Grupo_8
 
         protected void btnGenerarTabla_Click(object sender, EventArgs e)
         {
-            int cantidad1, cantidad2;
-            string producto1, producto2;
+            int cantidad1 = -1, cantidad2 = -1;
+            string producto1 = "", producto2 = "";
 
             if (txtBxCantidad1.Text != "" && txtBxProducto1.Text != "") 
             {
@@ -81,9 +81,16 @@ namespace TP2_Grupo_8
                 cantidad2 = int.Parse(txtBxCantidad2.Text);
                 producto2 = txtBxProducto2.Text;
             }
+            if (producto1 == "" || cantidad1 < 0)
+            {
+                lblTabla.Text = "Faltan campos del primer producto.";
+                return;
+            }
+
             string tabla = "<table border = '1'";
             tabla += "<tr>";
             tabla += "<td> Producto </td><td> Cantidad </td>";
+            tabla += $"<tr><td>{ producto1 }</td> <td>{ cantidad1 }</td></tr>";
             tabla += "</tr>";
             tabla += "</Table>";
             lblTabla.Text = tabla;
