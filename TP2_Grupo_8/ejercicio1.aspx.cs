@@ -87,10 +87,17 @@ namespace TP2_Grupo_8
                 return;
             }
 
+            if (producto2 == "" || cantidad2 < 0)
+            {
+                lblTabla.Text = "Faltan campos del segundo producto.";
+                return;
+            }
+
             string tabla = "<table border = '1'";
             tabla += "<tr>";
             tabla += "<td> Producto </td><td> Cantidad </td>";
             tabla += $"<tr><td>{ producto1 }</td> <td>{ cantidad1 }</td></tr>";
+            tabla += $"<tr><td>{ producto2 }</td> <td>{ cantidad2 }</td></tr>";
             tabla += "</tr>";
             tabla += "</Table>";
             lblTabla.Text = tabla;
