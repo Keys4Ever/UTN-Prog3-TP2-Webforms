@@ -10,6 +10,9 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -18,32 +21,35 @@
             <table class="auto-style1">
                 <tr>
                     <td>
-                        <asp:LinkButton ID="lnkBtnRojo" runat="server" OnClick="LinkButton1_Click">Rojo</asp:LinkButton>
+                        &nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="lnkBtnRojo" runat="server" OnClick="lnkBtnRojo_Click">Rojo</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2">
+                        <asp:LinkButton ID="lnkBtnAzul" runat="server" OnClick="lnkBtnAzul_Click">Azul</asp:LinkButton>
+                    </td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -56,9 +62,10 @@
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblTextoColoreado" runat="server" Text="Texto coloreado"></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
