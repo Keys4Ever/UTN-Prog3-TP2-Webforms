@@ -22,7 +22,7 @@ namespace TP2_Grupo_8
 
         protected void btnEjercicio2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ejercicio2.aspx");
+            Response.Redirect("ejercicio2A.aspx");
         }
 
         protected void btnEjercicio3_Click(object sender, EventArgs e)
