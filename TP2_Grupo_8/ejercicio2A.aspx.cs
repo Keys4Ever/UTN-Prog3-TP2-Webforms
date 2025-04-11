@@ -29,6 +29,21 @@ namespace TP2_Grupo_8
             {
                 lblErrorNombre.Text = "Ingrese el nombre.";
             }
+
+            string ciudad =DropDownList1.SelectedValue;
+
+            string temas="";
+            foreach (ListItem item in chboxTemas.Items)
+            {
+                if(item.Selected)
+                {
+                    temas+=item.Text+",";
+                }
+            }
+            temas =temas.TrimEnd(',');
+
+            Response.Redirect("ejercicio2b.aspx?Nombre="+txBxNombre.Text+"&Apellido="
+                +txBxApellido.Text+"&ciudad="+ciudad+"&temas="+temas);
         }
 
         protected void txBxApellido_TextChanged(object sender, EventArgs e)
