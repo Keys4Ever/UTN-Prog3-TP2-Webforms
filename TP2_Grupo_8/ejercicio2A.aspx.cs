@@ -13,5 +13,15 @@ namespace TP2_Grupo_8
 		{
 
 		}
-	}
+
+        protected void btnResumen_Click(object sender, EventArgs e)
+        {
+			lblError.Text = "";
+
+			if (txBxApellido.Text.Trim() == "")
+			{
+				lblError.Text = "Ingrese el apellido.";
+			}
+        }
+    }
 }

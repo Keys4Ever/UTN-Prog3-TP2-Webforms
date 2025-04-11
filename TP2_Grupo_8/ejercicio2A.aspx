@@ -66,6 +66,19 @@
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style7">&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style5">Apellido:</td>
+                    <td class="auto-style7">
+                        <asp:TextBox ID="txBxApellido" runat="server"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -92,16 +105,9 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style7">
+                        <asp:Button ID="btnResumen" runat="server" OnClick="btnResumen_Click" Text="Ver resumen" />
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
