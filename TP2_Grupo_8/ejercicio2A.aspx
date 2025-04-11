@@ -9,6 +9,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
+            height: 191px;
         }
         .auto-style2 {
             height: 23px;
@@ -33,6 +34,21 @@
         .auto-style8 {
             height: 23px;
             width: 240px;
+        }
+        .auto-style9 {
+            width: 64px;
+            height: 33px;
+        }
+        .auto-style10 {
+            width: 115px;
+            height: 33px;
+        }
+        .auto-style11 {
+            width: 240px;
+            height: 33px;
+        }
+        .auto-style12 {
+            height: 33px;
         }
     </style>
 </head>
@@ -95,23 +111,31 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style5">
+                        <asp:Label ID="Label1" runat="server" Text="Ciudad:"></asp:Label>
+                    </td>
+                    <td class="auto-style7">
+                        <asp:DropDownList ID="DropDownList1" runat="server">
+                            <asp:ListItem Value="zona norte">General Pacheco</asp:ListItem>
+                            <asp:ListItem Value="zona oeste">San Miguel</asp:ListItem>
+                            <asp:ListItem Value="Zona sur">Boedo</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style7">
+                    <td class="auto-style9"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style11">
                         <asp:Button ID="btnResumen" runat="server" OnClick="btnResumen_Click" Text="Ver resumen" />
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style12"></td>
                 </tr>
             </table>
         </div>
