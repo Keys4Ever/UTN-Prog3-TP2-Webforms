@@ -28,5 +28,10 @@ namespace TP2_Grupo_8
         {
             lblTextoColoreado.ForeColor = System.Drawing.Color.Red;
         }
+
+        protected void linkBtnVerde_Click(object sender, EventArgs e)
+        {
+            lblTextoColoreado.ForeColor = System.Drawing.Color.Green;
+        }
     }
 }
