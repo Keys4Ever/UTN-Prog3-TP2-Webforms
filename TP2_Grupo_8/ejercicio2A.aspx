@@ -121,18 +121,26 @@
                             <asp:ListItem Value="Zona sur">Boedo</asp:ListItem>
                         </asp:DropDownList>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblTemas" runat="server" Text="Temas:"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style9"></td>
-                    <td class="auto-style10"></td>
+                    <td class="auto-style10">&nbsp;</td>
                     <td class="auto-style11">
                         <asp:Button ID="btnResumen" runat="server" OnClick="btnResumen_Click" Text="Ver resumen" />
                     </td>
-                    <td class="auto-style12"></td>
+                    <td class="auto-style12">
+                        <asp:CheckBoxList ID="chboxTemas" runat="server">
+                            <asp:ListItem Value="Ciencias">Ciencias</asp:ListItem>
+                            <asp:ListItem Value="Literatura">Literatura</asp:ListItem>
+                            <asp:ListItem>Historia</asp:ListItem>
+                        </asp:CheckBoxList>
+                    </td>
                     <td class="auto-style12"></td>
                     <td class="auto-style12"></td>
                     <td class="auto-style12"></td>
