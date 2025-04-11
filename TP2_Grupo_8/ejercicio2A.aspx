@@ -73,7 +73,9 @@
                     <td class="auto-style8">
                         <asp:TextBox ID="txBxNombre" runat="server"></asp:TextBox>
                     </td>
-                    <td class="auto-style2"></td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblErrorNombre" runat="server" ForeColor="Red"></asp:Label>
+                    </td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2"></td>
@@ -83,8 +85,7 @@
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style7">&nbsp;</td>
                     <td>
-                        <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -93,9 +94,11 @@
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style5">Apellido:</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="txBxApellido" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txBxApellido" runat="server" OnTextChanged="txBxApellido_TextChanged"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblErrorApellido" runat="server" ForeColor="Red"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>

@@ -42,13 +42,13 @@ namespace TP2_Grupo_8
         protected global::System.Web.UI.WebControls.TextBox txBxNombre;
 
         /// <summary>
-        /// Control lblError.
+        /// Control lblErrorNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblError;
+        protected global::System.Web.UI.WebControls.Label lblErrorNombre;
 
         /// <summary>
         /// Control txBxApellido.
@@ -58,6 +58,15 @@ namespace TP2_Grupo_8
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBxApellido;
+
+        /// <summary>
+        /// Control lblErrorApellido.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorApellido;
 
         /// <summary>
         /// Control Label1.
