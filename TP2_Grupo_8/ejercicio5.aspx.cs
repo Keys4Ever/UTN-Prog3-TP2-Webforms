@@ -12,6 +12,10 @@ namespace TP2_Grupo_8
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
-		}
+			
+			
+			txtBxClave.Attributes["value"] = txtBxClave.Text;
+        }
+          
 	}
 }

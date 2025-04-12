@@ -54,9 +54,15 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style3">
+                        <asp:Label ID="lblClave" runat="server" Text="Clave:"></asp:Label>
+                    </td>
+                    <td class="auto-style4">
+                        <asp:TextBox ID="txtBxClave" runat="server" AutoPostBack="True" TextMode="Password"></asp:TextBox>
+                    </td>
+                    <td class="auto-style5">
+                        <asp:RequiredFieldValidator ID="rfvContraseña0" runat="server" ControlToValidate="txtBxClave" ErrorMessage="La contraseña no debe estar vacio" ForeColor="Red">La contraseña no debe estar vacio</asp:RequiredFieldValidator>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
