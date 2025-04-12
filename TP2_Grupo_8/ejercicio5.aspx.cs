@@ -25,7 +25,7 @@ namespace TP2_Grupo_8
 			if(txtBxUsuario.Text == usuarioRegistrado && 
 				txtBxClave.Text == contrasenaRegistrado)
 			{
-				//poner la url de bienvenido
+				Response.Redirect("Ejercicio4b.aspx?User="+txtBxUsuario.Text+"&Code="+txtBxClave.Text);
 			}
 			else
 			{
