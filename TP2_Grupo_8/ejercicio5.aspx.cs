@@ -16,6 +16,21 @@ namespace TP2_Grupo_8
 			
 			txtBxClave.Attributes["value"] = txtBxClave.Text;
         }
-          
-	}
+
+        protected void BtnValidar_Click(object sender, EventArgs e)
+        {
+			string usuarioRegistrado = "claudio";
+			string contrasenaRegistrado = "casas";
+
+			if(txtBxUsuario.Text == usuarioRegistrado && 
+				txtBxClave.Text == contrasenaRegistrado)
+			{
+				//poner la url de bienvenido
+			}
+			else
+			{
+				//poner la url de usuario invalido
+			}
+        }
+    }
 }
