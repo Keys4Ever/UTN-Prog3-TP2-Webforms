@@ -46,7 +46,7 @@
                         <asp:TextBox ID="txtBxUsuario" runat="server" AutoPostBack="True"></asp:TextBox>
                     </td>
                     <td class="auto-style5">
-                        <asp:RequiredFieldValidator ID="rfvUsuario" runat="server" ControlToValidate="txtBxUsuario" ErrorMessage="El usuario no debe estar vacio" ForeColor="Red" InitialValue="a">El usuario no debe estar vacio</asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rfvUsuario" runat="server" ControlToValidate="txtBxUsuario" ErrorMessage="El usuario no debe estar vacio" ForeColor="Red">El usuario no debe estar vacio</asp:RequiredFieldValidator>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
