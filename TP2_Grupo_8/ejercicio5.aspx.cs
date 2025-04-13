@@ -7,28 +7,19 @@ using System.Web.UI.WebControls;
 
 namespace TP2_Grupo_8
 {
-	public partial class ejercicio5 : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
-			ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
-			
-			
-			txtBxClave.Attributes["value"] = txtBxClave.Text;
+    public partial class Ejercicio5real : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                
+            }
         }
 
-        protected void BtnValidar_Click(object sender, EventArgs e)
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-			string usuarioRegistrado = "claudio";
-			string contrasenaRegistrado = "casas";
-
-			if(txtBxUsuario.Text != usuarioRegistrado 
-				&& txtBxClave.Text != contrasenaRegistrado)
-			{
-                Response.Redirect("Ejercicio4.aspx");
-            }
-
-            Response.Redirect("Ejercicio4b.aspx?User=" + txtBxUsuario.Text + "&Code=" + txtBxClave.Text);
+            
         }
     }
 }

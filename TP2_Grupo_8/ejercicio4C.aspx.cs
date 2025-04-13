@@ -7,11 +7,13 @@ using System.Web.UI.WebControls;
 
 namespace TP2_Grupo_8
 {
-    public partial class Ejercicio5real : System.Web.UI.Page
+    public partial class Ejercicio4b : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string nombre;
+            nombre = Request.QueryString["User"];
+            lblMensaje.Text += nombre;
         }
     }
 }

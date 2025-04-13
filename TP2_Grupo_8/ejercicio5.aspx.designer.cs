@@ -11,7 +11,7 @@ namespace TP2_Grupo_8
 {
 
 
-    public partial class ejercicio5
+    public partial class Ejercicio5real
     {
 
         /// <summary>
@@ -24,66 +24,39 @@ namespace TP2_Grupo_8
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblUsuario.
+        /// Control lblTitulo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsuario;
+        protected global::System.Web.UI.WebControls.Label lblTitulo;
 
         /// <summary>
-        /// Control txtBxUsuario.
+        /// Control lblMemoria.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBxUsuario;
+        protected global::System.Web.UI.WebControls.Label lblMemoria;
 
         /// <summary>
-        /// Control rfvUsuario.
+        /// Control ddlMemorias.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvUsuario;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMemorias;
 
         /// <summary>
-        /// Control lblClave.
+        /// Control chkbxAccesorios.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblClave;
-
-        /// <summary>
-        /// Control txtBxClave.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBxClave;
-
-        /// <summary>
-        /// Control rfvContraseña0.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvContraseña0;
-
-        /// <summary>
-        /// Control BtnValidar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnValidar;
+        protected global::System.Web.UI.WebControls.CheckBoxList chkbxAccesorios;
     }
 }

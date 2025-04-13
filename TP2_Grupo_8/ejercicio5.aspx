@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ejercicio5.aspx.cs" Inherits="TP2_Grupo_8.ejercicio5" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ejercicio5.aspx.cs" Inherits="TP2_Grupo_8.Ejercicio5real" %>
 
 <!DOCTYPE html>
 
@@ -11,16 +11,7 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 59px;
-        }
-        .auto-style3 {
-            width: 108px;
-        }
-        .auto-style4 {
-            width: 187px;
-        }
-        .auto-style5 {
-            width: 274px;
+            width: 229px;
         }
     </style>
 </head>
@@ -29,78 +20,116 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblTitulo" runat="server" Font-Size="18pt" Text="Elija su configuración"></asp:Label>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">
-                        <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
-                    </td>
-                    <td class="auto-style4">
-                        <asp:TextBox ID="txtBxUsuario" runat="server" AutoPostBack="True"></asp:TextBox>
-                    </td>
-                    <td class="auto-style5">
-                        <asp:RequiredFieldValidator ID="rfvUsuario" runat="server" ControlToValidate="txtBxUsuario" ErrorMessage="El usuario no debe estar vacio" ForeColor="Red">El usuario no debe estar vacio</asp:RequiredFieldValidator>
-                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">
-                        <asp:Label ID="lblClave" runat="server" Text="Clave:"></asp:Label>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblMemoria" runat="server" Font-Bold="True" Font-Size="12pt" Text="Seleccione la cantidad de memoria"></asp:Label>
                     </td>
-                    <td class="auto-style4">
-                        <asp:TextBox ID="txtBxClave" runat="server" AutoPostBack="True" TextMode="Password"></asp:TextBox>
-                    </td>
-                    <td class="auto-style5">
-                        <asp:RequiredFieldValidator ID="rfvContraseña0" runat="server" ControlToValidate="txtBxClave" ErrorMessage="La contraseña no debe estar vacio" ForeColor="Red">La contraseña no debe estar vacio</asp:RequiredFieldValidator>
-                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
-                        <asp:Button ID="BtnValidar" runat="server" OnClick="BtnValidar_Click" Text="Validar" />
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:DropDownList ID="ddlMemorias" runat="server" Width="100px">
+                            <asp:ListItem>2GB</asp:ListItem>
+                            <asp:ListItem>4GB</asp:ListItem>
+                            <asp:ListItem>6GB</asp:ListItem>
+                        </asp:DropDownList>
                     </td>
-                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:CheckBoxList ID="chkbxAccesorios" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
+                            <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
+                            <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
+                            <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
+                        </asp:CheckBoxList>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>

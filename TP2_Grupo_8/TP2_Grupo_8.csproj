@@ -71,10 +71,10 @@
     <Content Include="ejercicio2A.aspx" />
     <Content Include="ejercicio2B.aspx" />
     <Content Include="ejercicio3.aspx" />
+    <Content Include="ejercicio4B.aspx" />
+    <Content Include="ejercicio4C.aspx" />
     <Content Include="ejercicio4.aspx" />
-    <Content Include="Ejercicio4b.aspx" />
     <Content Include="ejercicio5.aspx" />
-    <Content Include="Ejercicio5real.aspx" />
     <Content Include="paginaPrincipal.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -107,6 +107,20 @@
     <Compile Include="ejercicio3.aspx.designer.cs">
       <DependentUpon>ejercicio3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ejercicio4B.aspx.cs">
+      <DependentUpon>ejercicio4B.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio4B.aspx.designer.cs">
+      <DependentUpon>ejercicio4B.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio4C.aspx.cs">
+      <DependentUpon>ejercicio4C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio4C.aspx.designer.cs">
+      <DependentUpon>ejercicio4C.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ejercicio4.aspx.cs">
       <DependentUpon>ejercicio4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,26 +128,12 @@
     <Compile Include="ejercicio4.aspx.designer.cs">
       <DependentUpon>ejercicio4.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio4b.aspx.cs">
-      <DependentUpon>Ejercicio4b.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Ejercicio4b.aspx.designer.cs">
-      <DependentUpon>Ejercicio4b.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ejercicio5.aspx.cs">
       <DependentUpon>ejercicio5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ejercicio5.aspx.designer.cs">
       <DependentUpon>ejercicio5.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Ejercicio5real.aspx.cs">
-      <DependentUpon>Ejercicio5real.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Ejercicio5real.aspx.designer.cs">
-      <DependentUpon>Ejercicio5real.aspx</DependentUpon>
     </Compile>
     <Compile Include="paginaPrincipal.aspx.cs">
       <DependentUpon>paginaPrincipal.aspx</DependentUpon>

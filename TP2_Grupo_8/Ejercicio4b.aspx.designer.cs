@@ -11,7 +11,7 @@ namespace TP2_Grupo_8
 {
 
 
-    public partial class Ejercicio4b
+    public partial class ejercicio4
     {
 
         /// <summary>
@@ -22,14 +22,5 @@ namespace TP2_Grupo_8
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control lblMensaje.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }
