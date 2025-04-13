@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            USUARIO INVÁLIDO INGRESO NO PERMITIDO</div>
     </form>
 </body>
 </html>

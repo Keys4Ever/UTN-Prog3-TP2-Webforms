@@ -22,15 +22,13 @@ namespace TP2_Grupo_8
 			string usuarioRegistrado = "claudio";
 			string contrasenaRegistrado = "casas";
 
-			if(txtBxUsuario.Text == usuarioRegistrado && 
-				txtBxClave.Text == contrasenaRegistrado)
+			if(txtBxUsuario.Text != usuarioRegistrado 
+				&& txtBxClave.Text != contrasenaRegistrado)
 			{
-				Response.Redirect("Ejercicio4b.aspx?User="+txtBxUsuario.Text+"&Code="+txtBxClave.Text);
-			}
-			else
-			{
-				//poner la url de usuario invalido
-			}
+                Response.Redirect("Ejercicio4.aspx");
+            }
+
+            Response.Redirect("Ejercicio4b.aspx?User=" + txtBxUsuario.Text + "&Code=" + txtBxClave.Text);
         }
     }
 }
