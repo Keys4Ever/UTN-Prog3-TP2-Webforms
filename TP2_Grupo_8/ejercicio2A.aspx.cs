@@ -33,6 +33,7 @@ namespace TP2_Grupo_8
             string ciudad =DropDownList1.SelectedValue;
 
             string temas="";
+
             foreach (ListItem item in chboxTemas.Items)
             {
                 if(item.Selected)
