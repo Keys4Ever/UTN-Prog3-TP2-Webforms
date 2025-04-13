@@ -21,5 +21,14 @@ namespace TP2_Grupo_8
         {
             
         }
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
+        {
+            int precioFinal = 0;
+            string textoPrecio;
+            textoPrecio = "El precio final es de: " + precioFinal.ToString() + "$";
+            lblPrecioFinal.Text += textoPrecio;
+
+        }
     }
 }
