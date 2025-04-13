@@ -11,7 +11,9 @@ namespace TP2_Grupo_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string nombre;
+            nombre = Request.QueryString["User"];
+            lblMensaje.Text += nombre;
         }
     }
 }
