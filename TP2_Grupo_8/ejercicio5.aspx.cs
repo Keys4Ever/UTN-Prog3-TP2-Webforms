@@ -27,56 +27,15 @@ namespace TP2_Grupo_8
             double precioFinal = 0;
             string textoPrecio;
 
-            int indexRam = ddlMemorias.SelectedIndex;
+            if (ddlMemorias.SelectedIndex >= 0 && double.TryParse(ddlMemorias.SelectedItem.Value, out double result)) precioFinal += result;
 
-            switch (indexRam)
-            {
-                case 0:
-                    //2gb de ram
-                    precioFinal += 200;
-                    break;
-                case 1:
-                    //4gb de ram
-                    precioFinal += 375;
-                    break;
-                case 2:
-                    //6gb de ram
-                    precioFinal += 500;
-                    break;
-                default:
-                    precioFinal += 0;
-                    break;
-            }
 
-            int i = 0;
             foreach (ListItem item in chkbxAccesorios.Items)
             {
-                if (item.Selected)
-                {
-                    switch (i)
-                    {
-                        case 0:
-                            // monitor lcd
-                            precioFinal += 2000.50;
-                            break;
-                        case 1:
-                            // HD 500 gb
-                            precioFinal += 550.50;
-                            break;
-                        case 2:
-                            // grabadora dvd
-                            precioFinal += 1200;
-                            break;
-                        default:
-                            precioFinal += 0;
-                            break;
-                    }
-                }
-                i++;
+                if (item.Selected && Double.TryParse(item.Value, out double pA)) precioFinal += pA;
             }
-
             textoPrecio = "El precio final es de: " + precioFinal.ToString() + "$";
-            lblPrecioFinal.Text += textoPrecio;
+            lblPrecioFinal.Text = textoPrecio;
 
         }
     }

@@ -13,6 +13,20 @@
         .auto-style2 {
             width: 229px;
         }
+        .auto-style3 {
+            height: 23px;
+        }
+        .auto-style4 {
+            width: 229px;
+            height: 23px;
+        }
+        .auto-style5 {
+            height: 25px;
+        }
+        .auto-style6 {
+            width: 229px;
+            height: 25px;
+        }
     </style>
 </head>
 <body>
@@ -51,21 +65,21 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td class="auto-style2">
                         <asp:DropDownList ID="ddlMemorias" runat="server" Width="100px">
-                            <asp:ListItem>2GB</asp:ListItem>
-                            <asp:ListItem>4GB</asp:ListItem>
-                            <asp:ListItem>6GB</asp:ListItem>
+                            <asp:ListItem Value="200">2GB</asp:ListItem>
+                            <asp:ListItem Value="375">4GB</asp:ListItem>
+                            <asp:ListItem Value="500">6GB</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                     <td>&nbsp;</td>
@@ -99,13 +113,13 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style5"></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
